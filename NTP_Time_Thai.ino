@@ -13,8 +13,8 @@ LedDisplay myDisplay = LedDisplay(dataPin, registerSelect, clockPin,
 
 int brightness = 15;        // screen brightness
 
-const char* ssid = "jiamjarapun";  //  your network SSID (name)
-const char* password = "226142abcd";       // your network password
+const char* ssid = "yourssid";  //  your network SSID (name)
+const char* password = "yourpass";       // your network password
 const String month_name[12] = {"Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"};
 const String day_name[7] = {"Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"};
 int timezone = 7 * 3600;
